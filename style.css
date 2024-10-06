@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #8a7070;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  margin: 1rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 600px;
+}
+
+.landscape {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.landscape img {
+  max-width: 200px;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul il {
+  background: #e2e2e2;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  color: #333;
+}
