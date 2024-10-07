@@ -1,53 +1,46 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #8a7070;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
   font-size: 13px;
 }
-
-h1 {
-  text-align: center;
-  color: #333;
+main {
+    padding: 16pt;
+    border-radius: 16pt;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 8pt;
+    font-family: sans-serif;
+    background-color: #164551;
+    color: white;
 }
 
-.attribution {
-  text-align: center;
-  font-size: 13px;
-  color: #666;
-  margin: 1rem;
+.title {
+    font-weight: bold;
+    font-size: 13pt;
 }
 
-.card {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 2rem auto;
-  padding: 1rem;
-  max-width: 600px;
+.contact-info {
+    font-size: 8pt;
 }
 
-.landscape {
+.motto {
+    font-weight: bold;
+}
+.landscape img {
+  max-width: 50px; 
+  border-radius: 10px;
+  margin-right: 4rem;
+}
+/* CSS Code generated with Hinkle's flexbox code generator */
+div.flex-container {		 
   display: flex;
+  justify-content: center;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap; 
 }
-
-.landscape img {
-  max-width: 200px;
-  border-radius: 8px;
-  margin-right: 1rem;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul il {
-  background: #e2e2e2;
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-  border-radius: 4px;
-  color: #333;
-}
+/* end generated code */
