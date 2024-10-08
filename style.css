@@ -5,42 +5,44 @@ body {
   padding: 0;
   font-size: 13px;
 }
+
 main {
-    padding: 16pt;
-    border-radius: 16pt;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    gap: 8pt;
-    font-family: sans-serif;
-    background-color: #164551;
-    color: white;
+  padding: 16pt;
+  border-radius: 16pt;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 8pt;
+  font-family: sans-serif;
+  background-color: #164551;
+  color: white;
 }
 
 .title {
-    font-weight: bold;
-    font-size: 13pt;
+  font-weight: bold;
+  font-size: 13pt;
 }
 
 .contact-info {
-    font-size: 8pt;
+  font-size: 8pt;
 }
 
 .motto {
-    font-weight: bold;
+  font-weight: bold;
 }
+
 .landscape img {
-  max-width: 50px; 
+  max-width: 50px;
   border-radius: 10px;
   margin-right: 4rem;
 }
-/* CSS Code generated with Hinkle's flexbox code generator */
-div.flex-container {		 
+
+/* Estilos generados con Hinkle's flexbox code generator */
+.flex-container {        
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap; 
 }
-/* end generated code */
