@@ -37,12 +37,13 @@ main {
   border-radius: 10px;
   margin-right: 4rem;
 }
-
-/* Estilos generados con Hinkle's flexbox code generator */
-.flex-container {        
+main.card landscape card-2 {		 
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column; 
+}
+h1 {
+  font-family: "Sixtyfour Convergence", sans-serif;
 }
