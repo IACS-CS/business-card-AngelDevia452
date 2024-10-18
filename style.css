@@ -31,12 +31,13 @@ main {
 .motto {
   font-weight: bold;
 }
-
 .landscape img {
-  max-width: 50px;
-  border-radius: 10px;
-  margin-right: 4rem;
+    max-width: 80px;
+    border-radius: 10px;
+    margin-left: 12rem;
+   height: auto;
 }
+
 main.card landscape card-2 {		 
   display: flex;
   flex-wrap: wrap;
@@ -44,6 +45,11 @@ main.card landscape card-2 {
   align-items: flex-start;
   flex-direction: column; 
 }
+
 h1 {
   font-family: "Sixtyfour Convergence", sans-serif;
+}
+.right{
+  margin-top: -2em;
+  width: 45%;
 }
